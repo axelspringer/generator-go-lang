@@ -160,8 +160,6 @@ class GolangGenerator extends Generator {
         this
       )
     })
-
-    return
   }
 
   end() {
