@@ -1,4 +1,13 @@
 {
-  "presets": ["node"],
-  "plugins": ["transform-async-to-generator"]
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": true
+        }
+      }
+    ]
+  ],
+  "plugins": ["@babel/transform-async-to-generator"]
 }
